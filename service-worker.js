@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "%20//kseniiabeliaeva.github.io/material-ui/precache-manifest.5fbf2a5ffa9e35d048fb0d2d65bb4d9b.js"
+  "/material-ui/precache-manifest.0b27e39a36d3eb5779962242339f3d59.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("%20//kseniiabeliaeva.github.io/material-ui/index.html", {
+workbox.routing.registerNavigationRoute("/material-ui/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
